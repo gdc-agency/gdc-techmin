@@ -11,7 +11,7 @@ const Footer = () => {
             {currentYear} © Techmin - Theme by <Col xs={12} className="text-center">
           {currentYear} © Techmin - Theme by <a href="" onClick={(e) => {
     e.preventDefault();
-    handleOpenNewtab("https://www.globaldigitalcare.com/");
+    handleOpenNewtab("https://www.globaldigitalcare.pk/");
   }} target="_blank" rel="noopener noreferrer">Global Digital Care</a>
         </Col>
           </Col>
