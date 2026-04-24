@@ -5,7 +5,9 @@ const Footer = () => {
       <Container fluid>
         <Row>
           <Col xs={12} className="text-center">
-            {currentYear} © Techmin - Theme by <b>{developedBy}</b>
+            {currentYear} © Techmin - Theme by <Col xs={12} className="text-center">
+          {currentYear} © Techmin - Theme by <a href="" onClick={() => handleOpenNewtab("https://www.globaldigitalcare.com/")} target="_blank" rel="noopener noreferrer">Global Digital Care</a>
+        </Col>
           </Col>
         </Row>
       </Container>
